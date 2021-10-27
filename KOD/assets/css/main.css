@@ -6,6 +6,7 @@ body {
 }
 .title{
   text-align: center;
+  color: black;
 
 }
 .container {
@@ -49,12 +50,25 @@ img.resize {
    position: center center;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 60px;
+    padding-top: 60px;
 
 }
 #icons > div {
   
   position: relative;
   overflow: hidden;
+  padding-right:0;
+
+}
+.number {
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 60px;
+}
+.icti{
+  padding-right: 120px;
+  padding-left: 30px;
 
 }
 #products {
